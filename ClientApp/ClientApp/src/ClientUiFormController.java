@@ -29,8 +29,6 @@ public class ClientUiFormController {
                     message = dataInputStream.readUTF();
                     txtshowArea.setText(txtshowArea.getText()+"\n Server :\t"+message);
                 }
-
-
             } catch (IOException e) {
                 e.printStackTrace();
             }

@@ -46,6 +46,5 @@ public class ServerUiFormController {
         String messageToSend = "";
         messageToSend = txtmsgToSend.getText().trim();
         dataOutputStream.writeUTF(messageToSend);
-
     }
 }
